@@ -36,6 +36,10 @@ nav ul li a{
     font-weight: bolder;
   }
 
+nav ul li a:hover{
+  color: silver;
+}
+
 h1 {
     color: whitesmoke;
     text-decoration: none;
@@ -64,6 +68,21 @@ video{
     left:0;
     width: 100%;
   }
+
+  iframe.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+p{
+  color: black;
+  text-shadow: 1px 1px white;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 25px;
+}
   
 .overlay{
     display: flex;
@@ -72,7 +91,7 @@ video{
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-    min-height: 60vh;
+    min-height: 50vh;
     justify-content: center;
   }
   
@@ -81,39 +100,100 @@ video{
     mix-blend-mode: overlay;
     text-align: center;
     font-size: 50px;
-    text-shadow: 6px 2px navy
-
+    text-shadow: 6px 2px navy;
   }
-  
+
+  .overlay p{
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+
 h3{
     color: white;
     text-align: center;
-    font-size: 30px;
-    text-shadow: 2px 2px navy
+    font-size: 50px;
+    text-shadow: 2px 2px navy;
   }
 
 h4{
     color: white;
     text-align: center;
-    font-size: 30px;
-    text-shadow: 2px 2px navy
+    font-size: 50px;
+    text-shadow: 2px 2px navy;
 
   }
 
 h5{
     color: white;
     text-align: center;
-    font-size: 30px;
-    text-shadow: 2px 2px navy
+    font-size: 50px;
+    text-shadow: 2px 2px navy;
   }
+  
+  h6{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px navy;
+  }
+
+.container{
+  color: white;
+  text-shadow: 1px 1px silver;
+  margin-bottom: 100px;
+}
+input[type=text], select, textarea {
+  width: 18%;
+  padding: 10px;
+  border: 4px solid silver;
+  border-radius: 9px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: silver;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: navy;
+  padding: 20px;
+}
   
 footer{
     background-color: navy;
     width: 100%;
-    height: 125px;
+    height: 260px;
+    text-align: center;
     margin-top: 50px;
     border: 4px solid black;
   }
+
+.footer .row {
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+}
+
+.row ul li a:hover{
+  color: silver;
+}
+
 
 .fa {
     padding: 20px;
@@ -148,8 +228,11 @@ footer{
   color: white;
 }
   
-iframe.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+footer .row ul li a{
+  color: white;
+}
+
+  footer .row{
+    color: white;
+    margin: 20px;
   }
